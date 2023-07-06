@@ -1,0 +1,235 @@
+*{
+    margin:0;
+    padding: 0;
+}
+body{
+    background-color: #5D4841;
+}
+/* header starts */
+.header-main{
+    background-color: #967E76;
+    display: flex;
+    justify-content: space-between;
+    height: 70px;
+    width: 100%;
+    box-shadow:black 0px 0.1px 5px 2px ;
+    position: fixed;
+    
+    
+}
+.logo{
+    padding-top: 5px;
+    padding-left: 30px;
+}
+.header-left{
+    display: flex;
+    justify-content: space-between;
+    width: 300px;
+   
+    
+}
+
+.header-right{
+    width: 200px;
+    padding-top: 10px;
+}
+.name{
+    letter-spacing: 2px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+/* header ends */
+/* navigation starts */
+.navigation{
+    padding-left: 30px;
+    word-spacing: 30px;
+    padding-top: 23px;
+    width: 300px;
+    
+    
+}
+
+.navigation li{
+    display: inline;
+    text-decoration-style: none;
+}
+.navigation li a {
+    color:white;
+}
+ul li{
+    text-decoration: none;
+}
+li a{
+    text-decoration: none;
+}
+/* navigation ends */
+/* main body starts */
+.body-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+    flex-direction: column;
+    height: 2000px;
+}
+/* button all start*/
+button{
+    width: 100px;
+    height: 30px;
+    margin-top: 40px;
+    border-radius: 30px;
+}
+/* button ends */
+/* content 1 starts */
+.content-1{
+
+    background-color: #CDC1B8;
+    width: 80%;
+    height: 450px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 30px;
+    padding-right: 30px;
+
+    
+}
+.img-1{
+    
+    width: 50%;
+    height: 400px;
+    margin-top: 23px;
+    border-radius: 20px;
+    
+
+}
+.img-1 img{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+}
+.txt-1{
+    color: aliceblue;
+    width: 45%;
+    height: 350px;
+    margin-top: 23px;
+    border-radius: 20px;
+    
+}
+.txt-1 h2 {
+
+    padding-top: 170px;
+    font-size: 27px;
+    color: rgb(50, 50, 50);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   
+    
+    
+}
+
+
+.txt-1 h6{
+    
+    padding-top: 10px;
+    font-size: 15px;
+    font-weight: lighter;
+    color: black;
+}
+/* content 1 ends */
+/* content 2 starts */
+.content-2{
+
+    background-color: #CDC1B8;
+    width: 80%;
+    height: 450px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-top: 20px;
+
+    
+}
+
+/* content 2 ends */
+/* content 3 starts */
+.content-3{
+    background-color: #CDC1B8;
+    width: 80%;
+    height: 455px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-top: 20px;
+
+}
+
+/* content 3 ends */
+/* content 4 starts */
+.content-4{
+    background-color: #CDC1B8;
+    width: 80%;
+    height: 455px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-top: 20px;
+
+}
+
+/* content 4 ends */
+hr{
+    opacity: 0.2;
+}
+.footer-main{
+    height: 200px;
+    width: 100%;
+    padding-top: 20px;
+    display: flex;
+}
+.conditions{
+    
+    height: 160px;
+    width: 200px;
+    margin-left: 100px;
+    border-left: 2px solid  rgb(129, 129, 129);
+    line-height: 40px;
+    padding-left: 10px;
+    color: aliceblue;
+    
+    
+}
+
+.conditions li {
+    list-style: none;
+}
+.mail{
+    height: 160px;
+    width: 200px;
+    margin-left: 100px;
+    border-left: 2px solid  rgb(129, 129, 129);
+    line-height: 40px;
+    padding-left: 10px;
+    color: aliceblue;
+    
+
+}
+.mail li{
+    list-style: none;
+}
+.copyright{
+    height: 160px;
+    width: 200px;
+    margin-left: 100px;
+    border-left: 2px solid rgb(129, 129, 129);
+    line-height: 40px;
+    padding-left: 10px;
+    color: aliceblue;
+}
+.copyright li{
+    list-style: none;
+}
