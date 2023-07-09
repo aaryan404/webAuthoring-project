@@ -1,4 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;500&display=swap');
+
+
+
+
+
 * {
+
     margin: 0;
     padding: 0;
 }
@@ -348,49 +355,54 @@ hr {
 .menu-main {
     padding-top: 100px;
     display: flex;
-    align-items:center ;
+    align-items: center;
     flex-direction: column;
     height: 800px;
-   
+
 }
+
 /* container 1 starts */
 .container-1 {
-   
+
     background-color: #CDC1B8;
     height: 400px;
     width: 80%;
-    
+
 
 }
+
 /*  */
 
 /* container 1 ends */
 /* container 2 starts */
-.container-2{
+.container-2 {
     margin-top: 20px;
     background-color: #CDC1B8;
     height: 400px;
     width: 80%;
-    
+
 
 }
+
 /* container 2 ends */
 /* style for both container 1 and 2 starts */
-.item-container{
+.item-container {
     height: 300px;
     width: 90%;
     background-color: lightgray;
     margin-left: 50px;
     display: flex;
 }
-.item-title{
+
+.item-title {
     font-size: medium;
-    font-weight:lighter;
+    font-weight: lighter;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin-left: 50px;
-    
+
 }
-.items{
+
+.items {
     background-color: #a49b99;
     height: 270px;
     width: 215px;
@@ -398,106 +410,144 @@ hr {
     margin-left: 10px;
     padding-top: 5px;
 }
+
 /* item-img starts*/
-.item-img{
+.item-img {
 
     background-color: #AEED98;
     margin-left: 5px;
     height: 220px;
     width: 95%;
 }
+
 /* item-img ends */
 /* menu-order-btn starts */
-.menu-order-btn{
+.menu-order-btn {
     margin-top: 5px;
     margin-left: 5px;
 
 }
+
 /* menu-order-btn ends */
 
 /* style for both container 1 and 2 ends */
 /* menu-main page ends */
 /* menu-hr starts*/
-.menu-hr{
+.menu-hr {
     opacity: 0.2;
     margin-top: 20px;
 }
+
 /* menu-hr ends */
 /* menufooter starts */
-.menu-footer{
+.menu-footer {
     height: 200px;
     width: 100%;
     padding-top: 20px;
     display: flex;
 }
+
 /* menu footer ends */
 /* order-place starts */
-.order-main{
-    height: 800px;
+.order-main {
+    height: 600px;
     width: 100%;
-    padding-top: 200px;
+    padding-top: 100px;
 }
-.order-place-main{
+
+.order-place-main {
     background-color: #483833;
     margin-left: 30%;
-    width: 35%;
+    width: 40%;
     height: 500;
     display: flex;
     align-items: center;
     flex-direction: column;
-    padding:5px;
+    padding: 5px;
     padding-bottom: 20px;
 }
-.form-title{
-    background-color: #CFCFCF;
-    width: 100%;
-    height: 50px;
-    font-size: 30px;
 
-    font-weight: lighter;
-    font-weight: 100;
-      
-    padding-top: 8px;
-    
-    
+.form-title {
+
+
+    background-color: #CFCFCF;
+    margin-top: 10px;
+    width: 96%;
+    height: 50px;
+    font-size: 26px;
+    font-family: 'Inter', sans-serif;
+
 }
-form{
+
+.form-title>h6 {
+    margin-top: 12px;
+    margin-left: 10px;
+
+}
+
+form {
+
     color: white;
     word-spacing: 2px;
     line-height: 25px;
     font-size: 14px;
 
 }
-input{
+
+input {
     height: 20px;
+
 }
+
+.details-input {
+    width: 200px;
+}
+
+.order-form {
+
+    padding-top: 20px;
+    padding-right: 125px;
+    height: 400px;
+    width: 70%;
+
+}
+
 /* to manupulate the width of the lable you need to make the display to inline-block */
-.label{
-    
+.label {
+
     display: inline-block;
     width: 100px;
 }
 
-.agreement{
+.agreement {
     font-size: 12px;
-    
-}
-.agreement-chk{
-    margin-left: 100px;
+
+
 }
 
-.order-form{
-    
-    padding-top: 20px;
-    padding-left: 10px;
-    height: 400px;
-    width: 70%;
-    
+.agreement-wrapper {
+    display: flex;
+    align-items: center;
+
 }
-.Confirm-btn{
+
+.agreement-chk {
+    margin-left: 100px;
+
+}
+
+
+
+.Confirm-btn {
     margin: 0px;
-    margin-left: 100px;
+    margin-left: 90px;
 }
 
+.order-footer {
+    height: 200px;
+    width: 100%;
+    padding-top: 20px;
+    display: flex;
+}
 
 /* order-place ends */
