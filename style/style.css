@@ -551,3 +551,151 @@ input {
 }
 
 /* order-place ends */
+/* offer main starts */
+.offer-main {
+    width: auto;
+    height: 1200px;
+    padding-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+/* offer container 1 starts */
+
+.offer-container-1 {
+    height: 500px;
+    width: 80%;
+    background-color: #CDC1B8;
+    display: flex;
+    justify-content: space-between;
+
+
+
+}
+
+/* offer container 1 left starts */
+
+.offer-container-1-left {
+    height: 450px;
+    width: 40%;
+    background-color: #4d4c4c;
+    margin-top: 25px;
+    margin-left: 40px;
+
+}
+
+.offer-container-1-left-top {
+    height: 60%;
+    width: 100%;
+    background-color: #e4634a;
+
+}
+
+.offer-container-1-left-bottom {
+    height: 40%;
+    width: 100%;
+    background-color: #483833;
+}
+
+/* offer container 1 left ends */
+/* offer container 1 right startts */
+.offer-container-1-right {
+    height: 450px;
+    width: 40%;
+    background-color: #4d4c4c;
+    margin-top: 25px;
+    margin-right: 40px;
+
+}
+
+.offer-container-1-right-top {
+    height: 60%;
+    width: 100%;
+    background-color: #e4634a;
+
+}
+
+.offer-container-1-right-bottom {
+    height: 40%;
+    width: 100%;
+    background-color: #483833;
+}
+
+/* offer container 1 right ends */
+
+/* offer container 1 ends */
+/* offer container 2 strts */
+.offer-container-2 {
+    height: 500px;
+    width: 80%;
+    background-color: #CDC1B8;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+/* offer container 2 left starts */
+.offer-container-2-left {
+    height: 450px;
+    width: 40%;
+    background-color: #4d4c4c;
+    margin-top: 25px;
+    margin-left: 40px;
+
+}
+
+.offer-container-2-left-top {
+    height: 60%;
+    width: 100%;
+    background-color: #e4634a;
+
+}
+
+.offer-container-2-left-bottom {
+    height: 40%;
+    width: 100%;
+    background-color: #483833;
+}
+
+/* offer container 2 left ends */
+/* offer container 2 right starts */
+.offer-container-2-right {
+    height: 450px;
+    width: 40%;
+    background-color: #4d4c4c;
+    margin-top: 25px;
+    margin-right: 40px;
+
+}
+
+.offer-container-2-right-top {
+    height: 60%;
+    width: 100%;
+    background-color: #e4634a;
+
+
+}
+
+.offer-container-2-right-bottom {
+    height: 40%;
+    width: 100%;
+    background-color: #483833;
+}
+
+/* offer container 2 right ends */
+/* offer container 2 ends */
+
+
+/* offer main ends */
+/* offer footer starts */
+.offer-footer {
+    height: 200px;
+    width: 100%;
+    padding-top: 20px;
+    display: flex;
+}
+
+/* offer footer ends */
