@@ -3,7 +3,7 @@
 
 
 
-
+/* this makes the default margin and padding for all the pages as 0. */
 * {
 
     margin: 0;
