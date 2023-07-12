@@ -466,7 +466,7 @@ hr {
 }
 
 .items {
-    background-color: #a49b99;
+    border: 1px solid black;
     height: 270px;
     width: 215px;
     margin-top: 15px;
@@ -474,14 +474,30 @@ hr {
     padding-top: 5px;
 }
 
+.items>p {
+    font-size: 15px;
+    font-weight: lighter;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 10px;
+
+}
+
 /* item-img starts*/
 .item-img {
 
-    background-color: #AEED98;
+
     margin-left: 5px;
-    height: 220px;
+    height: 190px;
     width: 95%;
 }
+
+.item-img img {
+    margin-top: 10px;
+    height: 90%;
+    width: 100%;
+    border-radius: 20px;
+}
+
 
 /* item-img ends */
 /* menu-order-btn starts */
