@@ -330,8 +330,26 @@ hr {
     list-style: none;
 }
 
-/* about page  starts*/
+.socials {
+
+    height: 70px;
+    width: 100px;
+    padding-top: 8px;
+    margin-left: 100px;
+
+}
+
+.socials li {
+    list-style-type: none;
+    width: 50px;
+    display: inline;
+    margin-left: 10px;
+
+}
+
+
 /* index page ends */
+/* about page  starts*/
 .about-main {
 
     height: 700px;
