@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;500&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;700&display=swap');
 
 
 
@@ -494,9 +494,18 @@ hr {
 
 .items>p {
     font-size: 15px;
-    font-weight: lighter;
+    font-weight: normal;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin-left: 10px;
+
+}
+
+.price {
+    margin-left: 25%;
+}
+
+.price2 {
+    margin-left: 40%;
 
 }
 
@@ -688,6 +697,11 @@ input {
     width: 100%;
     background-color: #e4634a;
 
+}
+
+.offer-container-1-left-top img {
+    height: 100%;
+    width: 100%;
 }
 
 .offer-container-1-left-bottom {
