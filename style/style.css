@@ -898,3 +898,72 @@ input {
 }
 
 /* thankyou page ends */
+/* for mobile */
+@media screen and (max-width:415px) {
+    .content-1 {
+        width: 40em;
+        height: 25em;
+        margin-left: 21em;
+    }
+
+    .img-1 {
+        margin-top: 10%;
+        height: 70%;
+    }
+
+    .txt-1 {
+        margin-top: 10%;
+        height: 70%;
+    }
+
+    .content-2 {
+        width: 40em;
+        height: 25em;
+        margin-left: 21em;
+    }
+
+    .img-2 {
+        margin-top: 10%;
+        height: 70%;
+    }
+
+    .txt-2 {
+        margin-top: 10%;
+        height: 70%;
+    }
+
+    .content-3 {
+        width: 40em;
+        height: 25em;
+        margin-left: 21em;
+    }
+
+    .img-3 {
+        margin-top: 10%;
+        height: 70%;
+    }
+
+    .txt-3 {
+        margin-top: 10%;
+        height: 70%;
+    }
+
+    .content-4 {
+        width: 40em;
+        height: 25em;
+        margin-left: 21em;
+    }
+
+    .img-4 {
+        margin-top: 10%;
+        height: 70%;
+    }
+
+    .txt-4 {
+        margin-top: 10%;
+        height: 70%;
+    }
+
+
+
+}
