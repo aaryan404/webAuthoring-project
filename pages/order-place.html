@@ -40,6 +40,8 @@
 
     </header>
     <!-- header ends -->
+
+
     <!-- order-place-main starts -->
     <div class="order-main">
         <div class="order-place-main">
@@ -47,7 +49,7 @@
                 <h6>ORDER DETAILS</h6>
             </div>
             <div class="order-form">
-                <form id="form">
+                <form id="form" action="submit">
                     <label class="label" for="full-name">Full Name:</label>
                     <input required class="details-input" type="text" id="full-name"> <br> <br>
                     <label class="label" for="Phone">Phone:</label>
@@ -69,7 +71,8 @@
 
                         <label class="agreement" for="agreement">i agree all the terms and conditions.</label> <br> <br>
                     </div>
-                    <button class="Confirm-btn">Confirm</button>
+                    <a href="thankyou.html"><button class="Confirm-btn" type="button" id="confirm"
+                            onclick="order()">Confirm</button></a>
                 </form>
             </div>
         </div>
@@ -100,13 +103,16 @@
                 </ul>
             </div>
             <div class="socials">
-                <ul>
+                <a href="#">
                     <li><img src="../svg/facebook.svg" alt="facebook"></li>
+                </a>
+                <a href="#">
                     <li><img src="../svg/instagram.svg" alt="instagram"></li>
-                </ul>
+                </a>
             </div>
         </div>
     </footer>
+    <script src="../script/script.js"></script>
 </body>
 
 </html>
